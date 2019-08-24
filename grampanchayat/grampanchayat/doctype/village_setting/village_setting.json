@@ -6,7 +6,8 @@
   "village_name",
   "taluko",
   "district",
-  "begining_date"
+  "begining_date",
+  "current_fiscal_year"
  ],
  "fields": [
   {
@@ -28,10 +29,16 @@
    "fieldname": "begining_date",
    "fieldtype": "Date",
    "label": "Begining Date"
+  },
+  {
+   "fieldname": "current_fiscal_year",
+   "fieldtype": "Link",
+   "label": "Current Fiscal Year",
+   "options": "Fiscal Year"
   }
  ],
  "issingle": 1,
- "modified": "2019-06-29 20:42:54.578346",
+ "modified": "2019-08-07 18:05:47.155946",
  "modified_by": "Administrator",
  "module": "GramPanchayat",
  "name": "Village Setting",
