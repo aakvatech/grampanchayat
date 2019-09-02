@@ -79,6 +79,10 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
+
+fixtures = [{"doctype":"Notification", "filters": [{"is_standard":0}]}, 'Auto Email Report', "Translation", {"doctype":"Print Format", "filters": [{"module":"GramPanchayat"}]}, {"doctype":"Report", "filters": [{"module":"GramPanchayat"}]} ]
+#fixtures = ["Custom Field", "Custom Script", "Property Setter", {"doctype":"Naming Series", "filters": [{"doctype":"Daily Checklist"}]}, 'Workflow', 'Workflow State', 'Workflow Action', {"doctype":"Notification", "filters": [{"is_standard":0}]}, 'Auto Email Report', "Translation", {"doctype":"Print Format", "filters": [{"module":"Property Management Solution"}]}, {"doctype":"Report", "filters": [{"module":"Property Management Solution"}]} ]
+
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
